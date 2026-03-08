@@ -19,7 +19,7 @@ function ContactForm() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const res = await fetch("https://contact-backend.onrender.com/contact", {
+        const res = await fetch("https://contact-form-cx36.onrender.com/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
